@@ -37,7 +37,7 @@ def gradient_descent(epochs, alpha):
     slope = slope - gradSlope * alpha
     inter = inter - gradInter * alpha
   return slope,inter
-
+#hello
 epochs = 10000
 alpha = 0.01
 slope,inter = gradient_descent(epochs,alpha)
